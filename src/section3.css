@@ -1,0 +1,33 @@
+.section-3 {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.notes div img {
+    width: 50px;
+}
+
+.head {
+    font-size: 1rem;
+    color: #555;
+}
+
+.body {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .section-3 {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,52 @@
+#menu {
+    position: fixed;
+    top: 0;
+    width: 70vw;
+    height: 100%;
+    background-color: #dedefc;
+    padding: 2rem;
+    transition: all .7s;
+    z-index: 400;
+    cursor: pointer;
+}
+
+#open {
+    position: absolute;
+    top: 2.3rem;
+    right: 1.4rem;
+    z-index: 700;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.menu-body {
+    margin: 5rem auto 0;
+    font-size: 1.4rem;
+}
+
+.menu-body ul {
+    text-align: center;
+    margin-right: 2rem;
+    line-height: 3.5;
+}
+
+.menu-body ul li {
+    transition: all .5s;
+}
+
+.menu-body .cont {
+    margin: 2rem auto 0;
+}
+
+@media screen and (min-width: 768px) {
+    #open {
+        display: none;
+    }   
+}

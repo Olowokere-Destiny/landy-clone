@@ -1,0 +1,30 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+
+.footer-divs {
+    width: 50%;
+}
+
+.footer-divs h3 {
+    margin: 10px 0;
+}
+
+.small {
+    font-size: 0.7rem;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+   .footer {
+    grid-template-columns: auto auto auto auto;
+   } 
+}

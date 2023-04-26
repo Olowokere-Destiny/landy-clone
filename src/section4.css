@@ -1,0 +1,17 @@
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .section-4 {
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+    }
+    .section-text {
+        width: 50%;
+    }
+}
+
