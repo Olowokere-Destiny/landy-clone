@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/landy-clone/static/css/main.bd0cc82a.css",
+    "main.js": "/landy-clone/static/js/main.27aa6be2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/landy-clone/static/js/787.28cb0dcd.chunk.js",
+    "static/media/waving.png": "/landy-clone/static/media/waving.6d60c7cb2f87c0c8c992.png",
+    "static/media/developer.png": "/landy-clone/static/media/developer.3ba905e789babf7d8242.png",
+    "static/media/rocket.png": "/landy-clone/static/media/rocket.05f4d9e532fe46a74cc8.png",
+    "static/media/developer-graph.png": "/landy-clone/static/media/developer-graph.04d30cc499edcf025f2d.png",
+    "static/media/notes-1.svg": "/landy-clone/static/media/notes-1.75dfac2bf3bf83a43664b73c19f20e2c.svg",
+    "static/media/notes-2.svg": "/landy-clone/static/media/notes-2.75dfac2bf3bf83a43664b73c19f20e2c.svg",
+    "index.html": "/landy-clone/index.html",
+    "main.bd0cc82a.css.map": "/landy-clone/static/css/main.bd0cc82a.css.map",
+    "main.27aa6be2.js.map": "/landy-clone/static/js/main.27aa6be2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/landy-clone/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd0cc82a.css",
+    "static/js/main.27aa6be2.js"
+  ]
+}
