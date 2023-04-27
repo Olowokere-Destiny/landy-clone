@@ -10,3 +10,19 @@
         flex-direction: row;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .btn-flex {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .btn-flex .btn:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

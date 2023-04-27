@@ -77,9 +77,10 @@ function App() {
   }
   const overflow = state.isOpen ? "hidden" : "auto";
   document.body.style.overflow = overflow;
+  const bgAsh = state.isOpen && "#bbb";
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: bgAsh}}>
 
       <SideBar state={state.isOpen} toggle={toggleMenu}/>
       <header>

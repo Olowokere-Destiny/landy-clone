@@ -9,9 +9,9 @@ export default function Section2() {
                 <p>
                 Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.
                 </p>
-                <div className="btn dark-btn getstarted">
+                <button className="getstarted">
                     Get Started
-                </div>
+                </button>
             </div>
         </div>
     )

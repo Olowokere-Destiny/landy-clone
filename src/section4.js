@@ -1,6 +1,6 @@
 import React from "react";
 import "./section4.css";
-import rocket from "./rocket.png";
+import rocket from "./rocket.svg";
 
 export default function Section4() {
     return (
@@ -13,7 +13,7 @@ export default function Section4() {
             </div>
 
             <div className="section-img">
-                <img src={rocket} alt="image" />
+                <img src={rocket} alt="pic" />
             </div>
         </div>
     )

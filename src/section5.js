@@ -1,12 +1,12 @@
 import React from "react";
 import "./section5.css";
-import dev from "./waving.png";
+import dev from "./waving.svg";
 
 export default function Section5() {
     return (
         <div className="section-5">
             <div className="section-img">
-                <img src={dev} alt="image" />
+                <img src={dev} alt="pic" />
             </div>
 
             <div className="section-text">

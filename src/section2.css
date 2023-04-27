@@ -5,6 +5,22 @@
     font-size: 1.4rem;
 }
 
+.getstarted {
+    border: none;
+    background-color: #16167A;
+    height: 3rem;
+    padding: 1rem 2.7rem;
+    color: white;
+    font-size: .9rem;
+    white-space: nowrap;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px #c7c7ec;
+    transition: all .5s;
+}
+
+.getstarted:hover {
+    background-color: #e47429;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -13,8 +29,8 @@
         align-items: center;
         justify-content: center;
     }
+
     .getstarted {
-        margin: auto;
-        width: 40%;
+        width: 45%;
     }
 }

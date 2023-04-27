@@ -1,6 +1,6 @@
 import React from "react";
 import "./section3.css";
-import graph from "./developer-graph.png";
+import graph from "./developer-graph.svg";
 import leftNote from "./notes-1.svg";
 import rightNote from "./notes-2.svg";
 
@@ -8,7 +8,7 @@ export default function Section3() {
     return (
         <div className="section-3">
             <div className="section-img">
-                <img src={graph} alt="image" />
+                <img src={graph} alt="pic" />
             </div>
             <div className="section-text">
                 <h1>Light, fast & responsive</h1>
